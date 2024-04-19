@@ -14,21 +14,44 @@
 
 ## install runtime environment | 安装运行环境
 ### Linux
-- Ubuntu | 乌班图
-``` shell
-sudo apt install python
+- Ubuntu/Debian
+
+```Shell
+sudo apt install python3
+```
+or
+```
+sudo apt-get install python3
 ```
 
-- Android termux | 安卓终端
-``` shell
+- Android termux
+
+```Shell
 pkg install python3
 pkg install python-pip
 ```
+
+- CentOS
+
+```Shell
+sudo yum install python3
+```
+
 ### other OS | 其他系统
 请自行使用Google、Bing、Baidu、yandex等搜索引擎寻找答案
 
+## check installed | 验证安装
+```shell
+python3 --version
+```
+
+如果到这里没有报错，并输出了版本号的话，
+恭喜你！已经安装成功了，享受代码吧！
+
 # contribution | 贡献
-待完善~
+1. `Fork`代码后添加你的代码
+2. 点击`Pull requests`
+3. 创建新的拉取请求后填写所需信息
 
 # license | 许可证
 [Apache-2.0 license](./LICENSE)
