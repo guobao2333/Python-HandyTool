@@ -27,5 +27,8 @@ pkg install python-pip
 ### other OS | 其他系统
 请自行使用Google、Bing、Baidu、yandex等搜索引擎寻找答案
 
-## 贡献
+# contribution | 贡献
 待完善~
+
+# license | 许可证
+[Apache-2.0 license](./LICENSE)
