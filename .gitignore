@@ -1,0 +1,6 @@
+# Log/OS Files
+*.log
+
+# Backup Files
+*.bak
+*.bak.md
