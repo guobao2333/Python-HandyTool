@@ -28,9 +28,9 @@
 
 ## replace_content - [1.0.0](https://github.com/guobao2333/python_handy-tool/commit/c0c63d5) - 2024-04-19
 
-### Added | 新增
+**创建了此项目仓库**👍🏻
 
-* **创建了此项目仓库**
+### Added | 新增
 
 * 新增python脚本：[批量替换文件内容](FileEditer/replace_content.py)
 
