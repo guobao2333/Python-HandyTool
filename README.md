@@ -65,7 +65,7 @@ pip help
 # Discussions | 讨论
 暂未完善~
 
-# Contribution | 贡献
+# Contribute | 贡献
 1. 点击上方`fork`仓库后，修改或添加你的代码
 2. 点击`Pull requests`创建新的拉取请求后填写你应该填写的信息。
 3. 接下来请等待代码审查，如果审查结束将会合并代码。
