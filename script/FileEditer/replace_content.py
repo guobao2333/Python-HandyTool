@@ -1,3 +1,19 @@
+################# LICENCE START ################
+#    Copyright 2024 @shiguobaona (https://github.com/guobao2333)
+
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+
+#        http://www.apache.org/licenses/LICENSE-2.0
+
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License.
+################# LICENCE END ##################
+
 import os,re,sys,argparse,inquirer
 
 ################# CONFIG START #################
@@ -20,7 +36,6 @@ overwrite_prompt = True #默认True
 
 
 def replace_content_in_file(file, match_content, replace_content, use_regex=False, overwrite=overwrite_default):
-    # 打开文件并读取内容
     # 以只读模式操作，防止异常导致原始文件损坏
     with open(file, 'r') as f:
         content = f.read()
@@ -50,7 +65,7 @@ def replace_content_in_file(file, match_content, replace_content, use_regex=Fals
 
 
 def replace_content_in_dir(dir, match_content, replace_content, regex=False, overwrite=overwrite_default):
-    # 遍历指定目录下的所有文件
+    # 批量操作目录下的所有文件
     for root, dirs, files in os.walk(dir):
         for file in files:
             file_path = os.path.join(root, file)
