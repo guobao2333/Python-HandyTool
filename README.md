@@ -37,7 +37,7 @@ python script/FileEditer/replace_content.py
 如果你已经安装python则可以跳过这部分。
 
 <details>
-<summary>点击查看详细步骤<summary>
+<summary>点击查看详细步骤</summary>
 
 ### Linux
 - Ubuntu/Debian
@@ -71,7 +71,7 @@ pip help
 
 如果到这里没有报错，并输出了版本号的话，
 恭喜你！已经安装成功了，享受代码吧！
-<details>
+</details>
 
 # Contribute | 贡献
 1. 点击上方`fork`仓库后，修改或添加你的代码
