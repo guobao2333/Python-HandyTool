@@ -18,7 +18,8 @@
 > 仅展示最新脚本变更版本，更多版本细节请[查看完整变更日志](CHANGELOG.md)
 
 # Usage | 使用
-由于我使用Linux系统，所以不知道在macOS和Windows上表现如何……好吧你只需要安装python环境，还有pip用于安装依赖库。
+由于我使用Linux系统，所以不知道在macOS和Windows上表现如何……  
+好吧你只需要安装python环境，还有pip用于安装依赖库。
 > 部分系统/包管理器安装的python可能不会自带pip，所以还需要自行安装，并且可能还需要设置系统环境变量。_**但这并不是本项目关注的重点，所以请自行解决。**_
 
 
@@ -60,11 +61,11 @@ pkg install python-pip
 sudo yum install python3
 ```
 ### Other OS | 其他系统
-请使用Google、Bing、Baidu、yandex等搜索引擎自行寻找答案
+请使用Google、Bing、Baidu、yandex等搜索引擎自行寻找答案。
 
 
 ### Check Installed | 验证安装
-```shell
+```Shell
 python3 --version
 pip help
 ```
