@@ -42,26 +42,32 @@ def replace_content_in_file(file, match_content, replace_content, use_regex=Fals
 
     # 使用正则表达式进行匹配和替换
     if use_regex:
-        content = re.sub(match_content, replace_content, content)
+        result = re.sub(match_content, replace_content, content)
     else:
-        content = content.replace(match_content, replace_content)
+        result = content.replace(match_content, replace_content)
 
-    #dir_name = os.path.dirname(file)
-    #file_name = os.path.basename(file)
-    
-    # 覆盖操作
-    if not overwrite:
-        # 不覆盖创建新文件
-        file_name_without_ext, ext = os.path.splitext(file)
-        new_file = f"{file_name_without_ext}{new_file_suffix}{ext}"
-        with open(new_file, 'w') as f:
-            f.write(content)
-        print(f"\033[32m修改完成！\033[0m新文件已保存到：{new_file}")
+    if result == content:
+        print(f"\033[33m未匹配到目标内容。\033[0m已跳过此文件：{file}")
     else:
-        # 直接覆盖
-        with open(file, 'w') as f:
-            f.write(content)
-        print(f"\033[32m修改完成！\033[0m文件路径：{file}")
+
+        content = result
+
+        #dir_name = os.path.dirname(file)
+        #file_name = os.path.basename(file)
+
+        # 覆盖操作
+        if not overwrite:
+            # 不覆盖创建新文件
+            file_name_without_ext, ext = os.path.splitext(file)
+            new_file = f"{file_name_without_ext}{new_file_suffix}{ext}"
+            with open(new_file, 'w') as f:
+                f.write(content)
+            print(f"\033[32m修改完成！\033[0m新文件已保存到：{new_file}")
+        else:
+            # 直接覆盖
+            with open(file, 'w') as f:
+                f.write(content)
+            print(f"\033[32m修改完成！\033[0m文件路径：{file}")
 
 
 def replace_content_in_dir(dir, match_content, replace_content, regex=False, overwrite=overwrite_default):
