@@ -10,13 +10,14 @@
 不过完全没有关系，我花了大量时间写的工具，本来只为满足我自己的一点小小目的，结果后面写上头了😂就花了亿点点把细节扣了扣，然后放上来开源给大家玩玩~
 
 # Change Log | 更新日志
-## 2024-4-21
+## replace_content - [1.2.0](https://github.com/guobao2333/python_handy-tool/commit/56cff86) - 2024-05-08
 ### Added | 新增
-* 新增python脚本：[合并图片](script/ImageEditer/overlay_images.py) - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
-* 新增python脚本：[重复拼接图片](script/ImageEditer/repeat_images.py) - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
+
++ 新增`跳过匹配失败的文件`的功能
 
 > 仅展示最新脚本变更版本，更多版本细节请[查看完整变更日志](CHANGELOG.md)
 
+---
 # Usage | 使用
 由于我使用Linux系统，所以不知道在macOS和Windows上表现如何……  
 好吧你只需要安装python环境，还有pip用于安装依赖库。

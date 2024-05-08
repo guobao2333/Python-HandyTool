@@ -7,17 +7,25 @@
 > 版本号前增加文件名作为标题： `文件名 - 版本号 - 日期`  
 > 如果某一天进行了多次更新，且为同一类型，则合并至同一个二/三级标题下，其下属标题顺延增加。
 
+## replace_content - [1.2.0](https://github.com/guobao2333/python_handy-tool/commit/56cff86) - 2024-05-08
+
+### Added | 新增
+
++ 新增`跳过匹配失败的文件`的功能
+
+---
 ## 2024-04-21
 ### Added | 新增
 
-* 新增python脚本：[合并图片](script/ImageEditer/overlay_images.py) overlay_images.py - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
-* 新增python脚本：[重复拼接图片](script/ImageEditer/repeat_images.py) repeat_images.py - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
++ 新增python脚本：[合并图片](script/ImageEditer/overlay_images.py) overlay_images.py - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
++ 新增python脚本：[重复拼接图片](script/ImageEditer/repeat_images.py) repeat_images.py - [0.1.0](https://github.com/guobao2333/python_handy-tool/commit/b929ef7)
 
 ### Changed | 变更
 
 * **调整存放所有脚本的目录为`script`**
 * 优化和完善文档
 
+---
 ## replace_content - [1.1.0](https://github.com/guobao2333/python_handy-tool/commit/1e862b8) - 2024-04-21
 
 ### Fixed | 修复
@@ -44,9 +52,9 @@
 
 ### Added | 新增
 
-* 新增python脚本：[批量替换文件内容](script/FileEditer/replace_content.py)
++ 新增python脚本：[批量替换文件内容](script/FileEditer/replace_content.py)
   > 因完成度较高，故为正式发布版v1.0.0。
 
-* 新增许可证
-* 新增`README.md`说明文档
-* 新增`ISSUE_TEMPLATE`问题模板
++ 新增许可证
++ 新增`README.md`说明文档
++ 新增`ISSUE_TEMPLATE`问题模板
