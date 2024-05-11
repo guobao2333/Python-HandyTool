@@ -4,10 +4,10 @@
 
 > [!IMPORTANT]
 > 特殊规范：  
-> 版本号前增加文件名作为标题： `文件名 - 版本号 - 日期`  
+> 版本号前增加文件名作为标题： `日期 - 文件名 - 版本号`  
 > 如果某一天进行了多次更新，且为同一类型，则合并至同一个二/三级标题下，其下属标题顺延增加。
 
-## replace_content - [1.2.1](https://github.com/guobao2333/Python-HandyTool/commit/39497da) - 2024-05-11
+## 2024-05-11 - replace_content - [1.2.1](https://github.com/guobao2333/Python-HandyTool/commit/39497da)
 
 ### Changed | 变更
 
@@ -16,7 +16,7 @@
 * 调整脚本部分提示内容
 * 优化和完善文档
 
-## replace_content - [1.2.0](https://github.com/guobao2333/Python-HandyTool/commit/56cff86) - 2024-05-08
+## 2024-05-08 - replace_content - [1.2.0](https://github.com/guobao2333/Python-HandyTool/commit/56cff86)
 
 ### Added | 新增
 
@@ -35,7 +35,7 @@
 * 优化和完善文档
 
 ---
-## replace_content - [1.1.0](https://github.com/guobao2333/Python-HandyTool/commit/1e862b8) - 2024-04-21
+## 2024-04-21 - replace_content - [1.1.0](https://github.com/guobao2333/Python-HandyTool/commit/1e862b8)
 
 ### Fixed | 修复
 
@@ -55,7 +55,7 @@
 * 新增变更日志
 * 新增`.gitignore`文件
 
-## replace_content - [1.0.0](https://github.com/guobao2333/Python-HandyTool/commit/c0c63d5) - 2024-04-19
+## 2024-04-19 - replace_content - [1.0.0](https://github.com/guobao2333/Python-HandyTool/commit/c0c63d5)
 
 **创建了此项目仓库**👍🏻
 
