@@ -80,10 +80,10 @@ def replace_content_in_dir(dir, match_content, replace_content, regex=False, ove
 # 命令行参数解析
 parser = argparse.ArgumentParser(description='替换指定目录下的所有文件或单独某个文件中的指定内容。')
 parser.add_argument('path', metavar='目录 | 文件', type=str, nargs='?', default='./', help='要替换的目录或文件的路径，如果未提供目录(不推荐)，则默认为当前目录')
-parser.add_argument('match_content', metavar='<匹配内容>', type=str, help='要匹配的内容，开启正则表达式需使用引号包裹，否则可能会导致您的命令行出现异常(并非我的代码问题)')
-parser.add_argument('replace_content', metavar='<替换内容>', type=str, help='替换后的内容，由于"$"符号在python中存在其他用途，其原本功能应改用"\\"符号代替')
-parser.add_argument('-r', '--regex', action='store_true', help='使用正则表达式进行匹配(默认不使用)')
-parser.add_argument('-o', '--overwrite', action='store_true', help='覆盖旧文件而不是创建新文件(默认不覆盖)')
+parser.add_argument('match_content', metavar='<匹配内容>', type=str, help='要匹配的内容。开启正则表达式需使用引号包裹，否则可能会导致您的命令行出现异常(并非我的代码问题)')
+parser.add_argument('replace_content', metavar='<替换内容>', type=str, help='替换后的内容。由于"$"符号在python中存在其他用途，其原本功能应改用"\\"符号代替')
+parser.add_argument('-R', '--regex', action='store_true', help='使用正则表达式进行匹配')
+parser.add_argument('-O', '--overwrite', action='store_true', help='\033[31m(危险)\033[0m直接覆盖旧文件而不是新建文件且不会提示')
 
 args = parser.parse_args()
 overwrite = args.overwrite
@@ -91,7 +91,7 @@ path = args.path
 
 # 判断路径存在
 if not os.path.exists(path):
-    sys.exit(f"\033[91m\033[1m错误\033[0m：此路径\033[1m不存在\033[0m：\033[33m\"{path}\"\033[0m")
+    sys.exit(f"\033[91m\033[1mERR:\033[0m 此路径\033[1m不存在\033[0m：\033[33m\"{path}\"\033[0m")
 
 # 判断绝对路径
 if not os.path.isabs(path):
