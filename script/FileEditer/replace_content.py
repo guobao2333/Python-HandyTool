@@ -18,8 +18,9 @@ import os,re,sys,argparse,inquirer
 
 ################# CONFIG START #################
 
-# 不覆盖时创建的新文件名后缀
-new_file_suffix = '_new' #file_new.txt
+# 读取和写入时使用的编码
+read_encoding = 'utf-8' #默认utf-8
+write_encoding = 'utf-8' #默认utf-8
 
 # 是否默认覆盖文件
 overwrite_default = False #默认False
@@ -27,6 +28,9 @@ overwrite_default = False #默认False
 # 是否提示覆盖文件
 # 如果为False，则在命令行未给参数时提示
 overwrite_prompt = True #默认True
+
+# 不覆盖时创建的新文件名后缀
+new_file_suffix = '_new' #file_new.txt
 
 # 默认替换次数
 #暂未开发，请等待后续更新
@@ -36,8 +40,8 @@ overwrite_prompt = True #默认True
 
 
 def replace_content_in_file(file, match_content, replace_content, use_regex=False, overwrite=overwrite_default):
-    # 以只读模式操作，防止异常导致原始文件损坏
-    with open(file, 'r') as f:
+    # 读取文件
+    with open(file, 'r', encoding=read_encoding, errors='ignore') as f:
         content = f.read()
 
     # 使用正则表达式进行匹配和替换
@@ -60,12 +64,12 @@ def replace_content_in_file(file, match_content, replace_content, use_regex=Fals
             # 不覆盖创建新文件
             file_name_without_ext, ext = os.path.splitext(file)
             new_file = f"{file_name_without_ext}{new_file_suffix}{ext}"
-            with open(new_file, 'w') as f:
+            with open(new_file, 'w', encoding=write_encoding, errors='ignore') as f:
                 f.write(content)
             print(f"\033[32m修改完成！\033[0m新文件已保存到：{new_file}")
         else:
             # 直接覆盖
-            with open(file, 'w') as f:
+            with open(file, 'w', encoding=write_encoding, errors='ignore') as f:
                 f.write(content)
             print(f"\033[32m修改完成！\033[0m文件路径：{file}")
 
