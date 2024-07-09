@@ -7,6 +7,13 @@
 > 版本号前增加文件名作为标题： `日期 - 文件名 - 版本号`  
 > 如果某一天进行了多次更新，且为同一类型，则合并至同一个二/三级标题下，其下属标题顺延增加。
 
+## 2024-07-10 - replace_content - [1.3.0](https://github.com/guobao2333/Python-HandyTool/commit/4065ada)
+
+### Added | 新增
+
++ 为不覆盖时新建的文件名称增加后缀配置
++ 为操作文件时新增编码格式配置
+
 ## 2024-05-11 - replace_content - [1.2.1](https://github.com/guobao2333/Python-HandyTool/commit/39497da)
 
 ### Changed | 变更
