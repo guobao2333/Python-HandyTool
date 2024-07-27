@@ -10,15 +10,21 @@
 不过完全没有关系，我花了大量时间写的工具，本来只为满足我自己的一点小需求，结果后面写上头了😂就花了亿点点时间优化了好多细节，然后放上来开源给大家玩玩~
 
 # Change Log | 变更日志
-## replace_content - [1.3.0](https://github.com/guobao2333/Python-HandyTool/commit/4065ada) - 2024-07-10
+## 2024-07-27
+### line_merger - [1.0.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
+#### New | 新脚本
 
-### Added | 新增
++ 新增python脚本：[逐行合并内容](script/FileEditer/line_merger.py)  
+  作用：将`文件2`中的内容逐行合并到`文件1`
 
-+ 为不覆盖时新建的文件名称增加后缀配置
-+ 为操作文件时新增编码格式配置
+### replace_content - [1.4.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
+#### Changed | 变更
 
+* `path`现在是不可空的必选参数
+* 优化部分代码逻辑
+* 优化部分提示信息
 
-> 仅展示最新脚本变更版本，更多版本细节请[查看完整变更日志](CHANGELOG.md)
+> 仅展示最新版本的部分变化，更多版本细节请[查看完整更新日志](CHANGELOG.md)
 
 ---
 # Usage | 使用
@@ -31,12 +37,13 @@
 ```Shell
 git clone https://github.com/guobao2333/Python-HandyTool.git
 cd Python-HandyTool
-python script/FileEditer/replace_content.py
+python script/FileEditer/replace_content.py -h
 ```
-
+> [!IMPORTANT]
+> 请注意！由于`ImageEditer/`路径下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助！  
+> 目前没有太多时间精力去翻新，暂时就这样。
 
 如果你还没有安装python，请继续阅读以下内容通过CLI(终端命令行)来安装运行环境。
-
 
 ## Install Runtime Environment | 安装运行环境
 如果你已经安装python则可以跳过这部分。
