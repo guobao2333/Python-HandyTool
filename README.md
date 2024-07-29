@@ -14,7 +14,7 @@
 ### line_merger - [1.0.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
 #### New | 新脚本
 
-+ 新增python脚本：[逐行合并内容](script/FileEditer/line_merger.py)  
++ 新增python脚本：[逐行合并内容](script/FileEditor/line_merger.py)  
   作用：将`文件2`中的内容逐行合并到`文件1`
 
 ### replace_content - [1.4.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
@@ -34,14 +34,15 @@
 
 
 ## Usage Example | 用法示例
-```Shell
-git clone https://github.com/guobao2333/Python-HandyTool.git
-cd Python-HandyTool
-python script/FileEditer/replace_content.py -h
-```
 > [!IMPORTANT]
 > 请注意！由于`ImageEditer/`路径下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助！  
 > 目前没有太多时间精力去翻新，暂时就这样。
+
+```Shell
+git clone https://github.com/guobao2333/Python-HandyTool.git
+cd Python-HandyTool
+python script/FileEditor/replace_content.py -h
+```
 
 如果你还没有安装python，请继续阅读以下内容通过CLI(终端命令行)来安装运行环境。
 

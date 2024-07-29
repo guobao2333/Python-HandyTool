@@ -11,7 +11,7 @@
 ### line_merger - [1.0.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
 #### New | 新脚本
 
-+ 新增python脚本：[逐行合并内容](script/FileEditer/line_merger.py)  
++ 新增python脚本：[逐行合并内容](script/FileEditor/line_merger.py)  
   作用：将`文件2`中的内容逐行合并到`文件1`
 
 ### replace_content - [1.4.0](https://github.com/guobao2333/Python-HandyTool/commit/433b5bd)
@@ -80,7 +80,7 @@
 **创建了此项目仓库**👍🏻
 ### New | 新脚本
 
-+ 新增python脚本：[批量替换文件内容](script/FileEditer/replace_content.py)  
++ 新增python脚本：[批量替换文件内容](script/FileEditor/replace_content.py)  
   作用：可使用正则表达式替换文件内的指定内容
 
 + 新增许可证
