@@ -1,5 +1,5 @@
 ################# LICENCE START ################
-#    Copyright 2024 @shiguobaona (https://github.com/guobao2333)
+#    Copyright 2024 shiguobaona(https://github.com/guobao2333)
 
 #    Licensed under the Apache License, Version 2.0 (the "License");
 #    you may not use this file except in compliance with the License.
@@ -22,8 +22,10 @@ from PIL import Image
 # 默认输出路径
 output_path = './'
 
-# 开启横向重复拼接
+# 是否横向拼接
 horizontal = False
+# 默认拼接方向
+#axis = 0|1
 
 ################# CONFIG END ###################
 
