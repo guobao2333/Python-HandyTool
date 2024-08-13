@@ -29,13 +29,19 @@
 需要安装python环境，还有pip用于安装依赖库。
 > 部分系统/包管理器安装的python可能不会自带pip，所以还需要自行安装，并且可能还需要设置系统环境变量。_**但这并不是本项目关注的重点，所以请自行解决。**_
 
-你可以在<script/README.md>中查看所有脚本。
+你可以在[script/README.md](script/README.md)中查看所有脚本。
 
 ### Usage Example | 用法示例
 > [!IMPORTANT]
-> 请注意！由于`ImageEditor/`路径下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助！  
+> 请注意！由于`ImageEditor/`路径下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助。  
 > 目前没有太多时间精力去翻新，暂时就这样。
 
+本仓库的参数解析使用到了`argparse`这个库，所以你需要先行安装：
+```bash
+pip install argparse
+```
+
+如果你还没有安装python和pip，请阅读`安装运行环境`这一章节。
 #### Clone Repo | 克隆仓库
 ```bash
 git clone https://github.com/guobao2333/Python-HandyTool.git
@@ -43,6 +49,7 @@ cd Python-HandyTool
 python script/FileEditor/replace_content.py -h
 ```
 
+如果你不想因为仓库的频繁更新而克隆仓库，请继续直接复制下方示例代码直接运行。
 #### Run Now | 直接运行
 ```bash
 curl -s "https://raw.githubusercontent.com/guobao2333/Python-HandyTool/main/script/FileEditor/replace_content.py" | python - -h
@@ -57,16 +64,17 @@ curl -s "https://raw.githubusercontent.com/guobao2333/Python-HandyTool/main/scri
 如果你已经安装python则可以跳过这部分。
 
 <details>
-<summary>点击查看详细安装步骤</summary>
+<summary>点击查看</summary>
 
 #### GNU/Linux
+> [!NOTE]
+> 现在几乎所有系统安装python3都会自带pip，所以你只需要安装python即可使用pip。
+> 如果你无法使用pip命令，你才需要另外安装。
+
 - Ubuntu or Debian
 ```bash
-sudo apt install python3
-```
-or
-```bash
 sudo apt-get install python3
+sudo apt-get install python-pip
 ```
 
 - Android Termux
@@ -86,7 +94,7 @@ sudo yum install python3
 #### Check Installed | 验证安装
 ```bash
 python --version
-pip help
+pip --version
 ```
 
 如果到这里没有报错，并输出了版本号的话，
