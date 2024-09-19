@@ -7,8 +7,7 @@
 > 版本号前增加文件名作为标题： `日期 - 文件名 - 版本号`  
 > 如果某一天进行了多次更新，且为同一类型，则合并至同一个二/三级标题下，其下属标题顺延增加。
 
-## 2024-07-29
-### replace_content - [1.5.0](https://github.com/guobao2333/Python-HandyTool/commit/b0c2c76)
+## replace_content - [1.5.0](https://github.com/guobao2333/Python-HandyTool/commit/b0c2c76) - 2024-07-29
 ### Fixed | 修复
 
 1. 修复文件夹拼写错误

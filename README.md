@@ -1,17 +1,18 @@
-# Python Handy Tool
-- 我自己使用python语言编写的一些方便的小工具
+# 方便的py小工具
+使用python编写的一些方便小工具
 
 [![Repo Link](https://img.shields.io/badge/Github-Repo-brightgreen?style=flat&logo=github)](https://github.com/guobao2333/Python-HandyTool)
 [![Repo License](https://img.shields.io/github/license/guobao2333/Python-HandyTool?logo=data:image/svg%2bxml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNiIgZGF0YS12aWV3LWNvbXBvbmVudD0idHJ1ZSIgY2xhc3M9Im9jdGljb24gb2N0aWNvbi1sYXcgbXItMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHlsZT0idXNlci1zZWxlY3Q6IGF1dG87Ij4KPHBhdGggZmlsbD0iI2Y1ZjVmNSIgZD0iTTguNzUuNzVWMmguOTg1Yy4zMDQgMCAuNjAzLjA4Ljg2Ny4yMzFsMS4yOS43MzZjLjAzOC4wMjIuMDguMDMzLjEyNC4wMzNoMi4yMzRhLjc1Ljc1IDAgMCAxIDAgMS41aC0uNDI3bDIuMTExIDQuNjkyYS43NS43NSAwIDAgMS0uMTU0LjgzOGwtLjUzLS41My41MjkuNTMxLS4wMDEuMDAyLS4wMDIuMDAyLS4wMDYuMDA2LS4wMDYuMDA1LS4wMS4wMS0uMDQ1LjA0Yy0uMjEuMTc2LS40NDEuMzI3LS42ODYuNDVDMTQuNTU2IDEwLjc4IDEzLjg4IDExIDEzIDExYTQuNDk4IDQuNDk4IDAgMCAxLTIuMDIzLS40NTQgMy41NDQgMy41NDQgMCAwIDEtLjY4Ni0uNDVsLS4wNDUtLjA0LS4wMTYtLjAxNS0uMDA2LS4wMDYtLjAwNC0uMDA0di0uMDAxYS43NS43NSAwIDAgMS0uMTU0LS44MzhMMTIuMTc4IDQuNWgtLjE2MmMtLjMwNSAwLS42MDQtLjA3OS0uODY4LS4yMzFsLTEuMjktLjczNmEuMjQ1LjI0NSAwIDAgMC0uMTI0LS4wMzNIOC43NVYxM2gyLjVhLjc1Ljc1IDAgMCAxIDAgMS41aC02LjVhLjc1Ljc1IDAgMCAxIDAtMS41aDIuNVYzLjVoLS45ODRhLjI0NS4yNDUgMCAwIDAtLjEyNC4wMzNsLTEuMjg5LjczN2MtLjI2NS4xNS0uNTY0LjIzLS44NjkuMjNoLS4xNjJsMi4xMTIgNC42OTJhLjc1Ljc1IDAgMCAxLS4xNTQuODM4bC0uNTMtLjUzLjUyOS41MzEtLjAwMS4wMDItLjAwMi4wMDItLjAwNi4wMDYtLjAxNi4wMTUtLjA0NS4wNGMtLjIxLjE3Ni0uNDQxLjMyNy0uNjg2LjQ1QzQuNTU2IDEwLjc4IDMuODggMTEgMyAxMWE0LjQ5OCA0LjQ5OCAwIDAgMS0yLjAyMy0uNDU0IDMuNTQ0IDMuNTQ0IDAgMCAxLS42ODYtLjQ1bC0uMDQ1LS4wNC0uMDE2LS4wMTUtLjAwNi0uMDA2LS4wMDQtLjAwNHYtLjAwMWEuNzUuNzUgMCAwIDEtLjE1NC0uODM4TDIuMTc4IDQuNUgxLjc1YS43NS43NSAwIDAgMSAwLTEuNWgyLjIzNGEuMjQ5LjI0OSAwIDAgMCAuMTI1LS4wMzNsMS4yODgtLjczN2MuMjY1LS4xNS41NjQtLjIzLjg2OS0uMjNoLjk4NFYuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwWm0yLjk0NSA4LjQ3N2MuMjg1LjEzNS43MTguMjczIDEuMzA1LjI3M3MxLjAyLS4xMzggMS4zMDUtLjI3M0wxMyA2LjMyN1ptLTEwIDBjLjI4NS4xMzUuNzE4LjI3MyAxLjMwNS4yNzNzMS4wMi0uMTM4IDEuMzA1LS4yNzNMMyA2LjMyN1oiIHN0eWxlPSJ1c2VyLXNlbGVjdDogYXV0bzsiPjwvcGF0aD4KPC9zdmc%2B&style=flat&label=Licence)](https://github.com/guobao2333/Python-HandyTool/blob/main/LICENSE)
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
-## 方便的py小工具
+
+最初只是为了某些小功能随手写的自动化脚本。
+
 虽然说好像我实现的这些功能可能已经有人做了，甚至已经封装成了一个库，可能比我的更好用，但我的本意只是为了丰富自己的编程技术，就是写着玩(:
 
 如果本项目对你有帮助，欢迎Star⭐
 
 ## Change Log | 变更日志
-### 2024-07-29
-#### replace_content - [1.5.0](https://github.com/guobao2333/Python-HandyTool/commit/b0c2c76)
+### replace_content - [1.5.0](https://github.com/guobao2333/Python-HandyTool/commit/b0c2c76) - 2024-07-29
 #### Added | 新增
 
 + 新增可选参数 `替换次数` 可用于指定在每个文件中的替换次数
@@ -33,7 +34,7 @@
 
 ### Usage Example | 用法示例
 > [!IMPORTANT]
-> 请注意！由于`ImageEditor/`路径下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助。  
+> 请注意！由于`ImageEditor/`目录下的脚本写的比较早，无法使用`-h`或`--help`参数获取帮助，请直接运行脚本获取帮助。  
 > 目前没有太多时间精力去翻新，暂时就这样。
 
 本仓库的参数解析使用到了`argparse`这个库，所以你需要先行安装：
@@ -49,7 +50,7 @@ cd Python-HandyTool
 python script/FileEditor/replace_content.py -h
 ```
 
-如果你不想因为仓库的频繁更新而克隆仓库，请继续直接复制下方示例代码直接运行。
+如果你不想因为仓库的频繁更新而克隆仓库，请复制下方示例代码直接运行。
 #### Run Now | 直接运行
 ```bash
 curl -s "https://raw.githubusercontent.com/guobao2333/Python-HandyTool/main/script/FileEditor/replace_content.py" | python - -h
@@ -66,11 +67,11 @@ curl -s "https://raw.githubusercontent.com/guobao2333/Python-HandyTool/main/scri
 <details>
 <summary>点击查看</summary>
 
-#### GNU/Linux
 > [!NOTE]
-> 现在几乎所有系统安装python3都会自带pip，所以你只需要安装python即可使用pip。
+> 现在几乎所有系统安装python3都会自带pip，所以你只需要安装python即可使用pip。  
 > 如果你无法使用pip命令，你才需要另外安装。
 
+#### Linux
 - Ubuntu or Debian
 ```bash
 sudo apt-get install python3
@@ -110,6 +111,20 @@ pip --version
 
 ## License | 许可证
 [Apache-2.0 license](./LICENSE)
+
+    Copyright 2024 @shiguobaona
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
 ## Disclaimer | 免责声明
 本仓库中的 Python 脚本仅供参考和学习使用，除 Apache-2.0 许可证外，本仓库**明确**不保证其***完整性、准确性、可靠性和安全性***。使用者应自行评估其**适用性**，并承担使用过程中产生的**任何风险和责任**。
